@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+   <body>
+   
+    {% for table in data %}
+            {{head[loop.index]}}
+            {{ table|safe }}
+    {% endfor %}
+      
+   </body>
+</html>
